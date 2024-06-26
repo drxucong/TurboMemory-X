@@ -10,10 +10,10 @@ TurboMemory X is an innovative project designed to integrate FPGA and DDR techno
 - Real-time data processing and storage
 
 ## Technologies Used
-- FPGA: Xilinx UltraScale+
-- DDR: DDR4/DDR5 modules
-- Programming Languages: Verilog, VHDL, Python
-- Tools: Vivado, ModelSim, Xilinx SDK
+- **FPGA**: Xilinx UltraScale+
+- **DDR**: DDR4/DDR5 modules
+- **Programming Languages**: Verilog, VHDL, Python
+- **Tools**: Vivado, ModelSim, Xilinx SDK
 
 ## Installation
 
