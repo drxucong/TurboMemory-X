@@ -1,7 +1,7 @@
 # TurboMemory X
 
 ## Description
-TurboMemory X is an innovative project designed to integrate FPGA and SSD technology to achieve and surpass the performance of HBM (High Bandwidth Memory) chips. This project aims to provide a cost-effective solution to memory shortages in the AI era by leveraging high-speed FPGA and DDR arrays.
+TurboMemory X is an innovative project designed to integrate FPGA and DDR technology to achieve and surpass the performance of HBM (High Bandwidth Memory) chips. This project aims to provide a cost-effective solution to memory shortages in the AI era by leveraging high-speed FPGA and DDR arrays.
 
 ## Features
 - High-performance memory management
@@ -11,7 +11,7 @@ TurboMemory X is an innovative project designed to integrate FPGA and SSD techno
 
 ## Technologies Used
 - FPGA: Xilinx UltraScale+
-- SSD: Samsung 970 EVO
+- DDR: DDR4/DDR5 modules
 - Programming Languages: Verilog, VHDL, Python
 - Tools: Vivado, ModelSim, Xilinx SDK
 
@@ -40,9 +40,9 @@ import turbomemory
 # Initialize the system
 system = turbomemory.System()
 
-# Configure FPGA and SSD
+# Configure FPGA and DDR
 system.configure_fpga()
-system.configure_ssd()
+system.configure_ddr()
 
 # Start processing
 system.start_processing()
